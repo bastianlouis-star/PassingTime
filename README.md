@@ -3,8 +3,7 @@
 A short, quiet game about an immortal, alone, with nothing but time.
 
 He starts in a small room: reading, a record, a video game, a chess board. Each pastime runs dry, and he has
-to find longer ones: a book, a garden, a piano, a village, a forest, a civilisation, a planet, a star, the end of
-the universe, and finally letting his own atoms go. There is no fast-forward. You never skip time, you spend it.
+to find longer ones. You never skip time, you spend it.
 
 It is rendered HD-2D, in the Octopath Traveller manner: procedural 3D dioramas with a painted high-resolution
 pixel hero, a tilt-shift and bloom post pass, and music and sound synthesised at runtime (there are no audio or
