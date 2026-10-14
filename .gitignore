@@ -1,0 +1,14 @@
+# Godot
+godot/.godot/
+godot/.import/
+*.tmp
+
+# Build outputs and big binaries (rebuild locally, see docs/PROJECT_STATE.md)
+PassingTime.exe
+PassingTime*.exe
+build/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/

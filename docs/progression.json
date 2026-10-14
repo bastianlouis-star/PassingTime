@@ -1,0 +1,1994 @@
+{
+  "auto": [
+    {
+      "counts": [
+        [
+          "wait_apples",
+          3
+        ]
+      ],
+      "give": "apples_grown",
+      "line": " The apples are ripe."
+    }
+  ],
+  "eras": [
+    {
+      "hotspots": [
+        {
+          "acts": [
+            {
+              "dur": "10 hours",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "read_novel",
+              "name": "Read a novel",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 0.00114077116130504
+            },
+            {
+              "dur": "15 min",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_shelf_note"
+              ],
+              "id": "search_shelf",
+              "name": "Search behind the books",
+              "needs": [
+                [
+                  "read_novel",
+                  2
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.0000285192790326261
+            },
+            {
+              "dur": "10 days",
+              "exhausts": [
+                "read_novel"
+              ],
+              "exit": false,
+              "give": [
+                "read_every_book"
+              ],
+              "id": "read_all",
+              "name": "Read every book on the shelf",
+              "needs": [
+                [
+                  "read_novel",
+                  3
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.027378507871321
+            }
+          ],
+          "id": "shelf",
+          "name": "Bookshelf",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "1 hour",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "heard_music"
+              ],
+              "id": "record",
+              "name": "Play a record",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 0.000114077116130504
+            },
+            {
+              "dur": "15 min",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_sleeve_note"
+              ],
+              "id": "sleeves",
+              "name": "Look through the record sleeves",
+              "needs": [
+                [
+                  "record",
+                  2
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.0000285192790326261
+            },
+            {
+              "dur": "3 days",
+              "exhausts": [
+                "record"
+              ],
+              "exit": false,
+              "give": [
+                "listened_all"
+              ],
+              "id": "record_all",
+              "name": "Listen to every record in the box",
+              "needs": [
+                [
+                  "record",
+                  3
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.0082135523613963
+            }
+          ],
+          "id": "gramophone",
+          "name": "Gramophone",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "3 hours",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "game",
+              "name": "Play a video game",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 0.000342231348391513
+            },
+            {
+              "dur": "1 hour",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_old_message"
+              ],
+              "id": "harddrive",
+              "name": "Search the hard drive",
+              "needs": [
+                [
+                  "game",
+                  2
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.000114077116130504
+            },
+            {
+              "dur": "30 days",
+              "exhausts": [
+                "game"
+              ],
+              "exit": false,
+              "give": [],
+              "id": "game_all",
+              "name": "Beat every game on the drive",
+              "needs": [
+                [
+                  "game",
+                  3
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.082135523613963
+            }
+          ],
+          "id": "computer",
+          "name": "Computer",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "2 hours",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "movie",
+              "name": "Watch a movie",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 0.000228154232261008
+            },
+            {
+              "dur": "1 hour",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_tv_note"
+              ],
+              "id": "tv_back",
+              "name": "Look behind the television",
+              "needs": [
+                [
+                  "movie",
+                  2
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.000114077116130504
+            },
+            {
+              "dur": "15 days",
+              "exhausts": [
+                "movie"
+              ],
+              "exit": false,
+              "give": [],
+              "id": "movie_all",
+              "name": "Watch every film in the cabinet",
+              "needs": [
+                [
+                  "movie",
+                  3
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.0410677618069815
+            }
+          ],
+          "id": "tv",
+          "name": "Television",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "1 hour",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "watch_clock",
+              "name": "Watch the clock",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 0.000114077116130504
+            },
+            {
+              "dur": "1 hour",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_photo"
+              ],
+              "id": "open_clock",
+              "name": "Open the clock case",
+              "needs": [
+                [
+                  "watch_clock",
+                  2
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.000114077116130504
+            },
+            {
+              "dur": "1 day",
+              "exhausts": [
+                "watch_clock"
+              ],
+              "exit": false,
+              "give": [],
+              "id": "clock_all",
+              "name": "Watch the clock until it stops meaning anything",
+              "needs": [
+                [
+                  "watch_clock",
+                  3
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.0027378507871321
+            }
+          ],
+          "id": "clock",
+          "name": "Wall clock",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "15 min",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_chess"
+              ],
+              "id": "search_cab",
+              "name": "Search the cabinet",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.0000285192790326261
+            }
+          ],
+          "id": "cabinet",
+          "name": "Cabinet",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "1 day",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "chess",
+              "name": "Play chess against yourself",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 0.0027378507871321
+            },
+            {
+              "dur": "1 hour",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_chess_note"
+              ],
+              "id": "chess_board",
+              "name": "Look under the board",
+              "needs": [
+                [
+                  "chess",
+                  2
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.000114077116130504
+            },
+            {
+              "dur": "5 days",
+              "exhausts": [
+                "chess"
+              ],
+              "exit": false,
+              "give": [],
+              "id": "chess_all",
+              "name": "Play every possible game",
+              "needs": [
+                [
+                  "chess",
+                  3
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.0136892539356605
+            }
+          ],
+          "id": "table",
+          "name": "Chess table",
+          "show": [
+            "found_chess"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "1 hour",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "seen_yard"
+              ],
+              "id": "look_out",
+              "name": "Look outside",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 0.000114077116130504
+            },
+            {
+              "dur": "15 min",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_window_note"
+              ],
+              "id": "sill",
+              "name": "Search the windowsill",
+              "needs": [
+                [
+                  "look_out",
+                  2
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.0000285192790326261
+            },
+            {
+              "dur": "12 days",
+              "exhausts": [
+                "look_out"
+              ],
+              "exit": false,
+              "give": [],
+              "id": "window_all",
+              "name": "Watch the yard until it stops changing",
+              "needs": [
+                [
+                  "look_out",
+                  3
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.0328542094455852
+            }
+          ],
+          "id": "window",
+          "name": "Window",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "",
+              "exhausts": [],
+              "exit": true,
+              "give": [],
+              "id": "leave1",
+              "name": "Step outside",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.0
+            }
+          ],
+          "id": "door",
+          "name": "Front door",
+          "show": []
+        }
+      ],
+      "name": "The Room"
+    },
+    {
+      "hotspots": [
+        {
+          "acts": [
+            {
+              "dur": "15 min",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_letters",
+                "found_telescope"
+              ],
+              "id": "search_attic",
+              "name": "Search the attic",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.0000285192790326261
+            }
+          ],
+          "id": "attic",
+          "name": "Attic ladder",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "15 min",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_notebook"
+              ],
+              "id": "search_desk",
+              "name": "Search the drawers",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.0000285192790326261
+            },
+            {
+              "dur": "3 months",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "write",
+              "name": "Start writing a book",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_notebook",
+                "read_every_book"
+              ],
+              "search": false,
+              "years": 0.25
+            },
+            {
+              "dur": "3 months",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "write2",
+              "name": "Continue writing your book",
+              "needs": [
+                [
+                  "write",
+                  1
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.25
+            },
+            {
+              "dur": "3 months",
+              "exhausts": [
+                "write"
+              ],
+              "exit": false,
+              "give": [
+                "book_written"
+              ],
+              "id": "write3",
+              "name": "Finish your book",
+              "needs": [
+                [
+                  "write2",
+                  1
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.25
+            }
+          ],
+          "id": "desk",
+          "name": "Desk",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "5 min",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "piano_uncovered"
+              ],
+              "id": "uncover",
+              "name": "Take the sheet off the piano",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.00000950642634420868
+            },
+            {
+              "dur": "3 months",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "piano",
+              "name": "Start learning the piano",
+              "needs": [],
+              "once": true,
+              "req": [
+                "listened_all",
+                "piano_uncovered"
+              ],
+              "search": false,
+              "years": 0.25
+            },
+            {
+              "dur": "3 months",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "piano2",
+              "name": "Continue learning the piano",
+              "needs": [
+                [
+                  "piano",
+                  1
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.25
+            },
+            {
+              "dur": "3 months",
+              "exhausts": [
+                "piano"
+              ],
+              "exit": false,
+              "give": [
+                "piano_learned"
+              ],
+              "id": "piano3",
+              "name": "Finish learning the piano",
+              "needs": [
+                [
+                  "piano2",
+                  1
+                ]
+              ],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.25
+            }
+          ],
+          "id": "piano",
+          "name": "Piano",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "15 min",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_almanac"
+              ],
+              "id": "search_kitchen",
+              "name": "Search the kitchen shelf",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.0000285192790326261
+            },
+            {
+              "dur": "4 days",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "know_garden"
+              ],
+              "id": "read_almanac",
+              "name": "Read the gardener's almanac",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_almanac"
+              ],
+              "search": false,
+              "years": 0.0109514031485284
+            }
+          ],
+          "id": "stove",
+          "name": "Stove",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "90 days",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "watch_sky",
+              "name": "Watch the sky",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 0.246406570841889
+            }
+          ],
+          "id": "scope",
+          "name": "Telescope",
+          "show": [
+            "found_telescope"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "30 days",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "wait_apples",
+              "name": "Wait for the apples to grow",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 0.082135523613963
+            },
+            {
+              "dur": "2 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "grafted"
+              ],
+              "id": "graft",
+              "name": "Graft a new variety",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_tools",
+                "apples_grown"
+              ],
+              "search": false,
+              "years": 2.0
+            }
+          ],
+          "id": "apple",
+          "name": "Apple tree",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "4 days",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "garden_cleared"
+              ],
+              "id": "clear",
+              "name": "Clear the weeds",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_tools",
+                "know_garden"
+              ],
+              "search": false,
+              "years": 0.0109514031485284
+            },
+            {
+              "dur": "1 year",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "garden_grown"
+              ],
+              "id": "tend",
+              "name": "Plant and tend the garden",
+              "needs": [],
+              "once": false,
+              "req": [
+                "garden_cleared",
+                "found_seeds"
+              ],
+              "search": false,
+              "years": 1.0
+            }
+          ],
+          "id": "garden",
+          "name": "Garden plot",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "15 min",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_seeds"
+              ],
+              "id": "search_shed",
+              "name": "Search the shed",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.0000285192790326261
+            },
+            {
+              "dur": "15 min",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_tools"
+              ],
+              "id": "rummage",
+              "name": "Rummage for tools",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_seeds"
+              ],
+              "search": true,
+              "years": 0.0000285192790326261
+            }
+          ],
+          "id": "shed",
+          "name": "Shed",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "",
+              "exhausts": [],
+              "exit": true,
+              "give": [],
+              "id": "leave2",
+              "name": "Follow the road",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_letters",
+                "found_telescope"
+              ],
+              "search": false,
+              "years": 0.0
+            }
+          ],
+          "id": "gate",
+          "name": "Garden gate",
+          "show": []
+        }
+      ],
+      "name": "The House"
+    },
+    {
+      "hotspots": [
+        {
+          "acts": [
+            {
+              "dur": "3 to 10 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "seen_world",
+                "place_workshop",
+                "place_conservatory",
+                "place_library",
+                "found_village"
+              ],
+              "id": "walk",
+              "name": "Walk across the world",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 6.5
+            }
+          ],
+          "id": "milestone",
+          "name": "Milestone",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "1 day",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_paints",
+                "found_lumber"
+              ],
+              "id": "search_workshop",
+              "name": "Search the painting workshop",
+              "needs": [],
+              "once": true,
+              "req": [
+                "place_workshop"
+              ],
+              "search": true,
+              "years": 0.0027378507871321
+            }
+          ],
+          "id": "workshop",
+          "name": "Painting workshop",
+          "show": [
+            "place_workshop"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "60 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "painted"
+              ],
+              "id": "paint",
+              "name": "Paint a thousand canvases",
+              "needs": [],
+              "once": false,
+              "req": [],
+              "search": false,
+              "years": 60.0
+            }
+          ],
+          "id": "easel",
+          "name": "Easel",
+          "show": [
+            "found_paints"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "1 day",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "explored_village"
+              ],
+              "id": "explore_village",
+              "name": "Explore the village",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_village"
+              ],
+              "search": true,
+              "years": 0.0027378507871321
+            },
+            {
+              "dur": "25 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "built_house"
+              ],
+              "id": "build",
+              "name": "Build a house with your hands",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_village",
+                "explored_village"
+              ],
+              "search": false,
+              "years": 25.0
+            },
+            {
+              "dur": "",
+              "exhausts": [],
+              "exit": true,
+              "give": [],
+              "id": "leave3",
+              "name": "Move into your house",
+              "needs": [],
+              "once": true,
+              "req": [
+                "built_house"
+              ],
+              "search": false,
+              "years": 0.0
+            }
+          ],
+          "id": "clearing",
+          "name": "The village",
+          "show": [
+            "found_village"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "1 day",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_scores"
+              ],
+              "id": "search_conservatory",
+              "name": "Search the conservatory",
+              "needs": [],
+              "once": true,
+              "req": [
+                "piano_learned"
+              ],
+              "search": true,
+              "years": 0.0027378507871321
+            },
+            {
+              "dur": "60 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "composed"
+              ],
+              "id": "compose",
+              "name": "Compose a thousand symphonies",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_scores"
+              ],
+              "search": false,
+              "years": 60.0
+            }
+          ],
+          "id": "conservatory",
+          "name": "Conservatory",
+          "show": [
+            "place_conservatory"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "1 day",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_library"
+              ],
+              "id": "search_lib",
+              "name": "Search the university",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 0.0027378507871321
+            },
+            {
+              "dur": "120 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "studied"
+              ],
+              "id": "study",
+              "name": "Study every science",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_library"
+              ],
+              "search": false,
+              "years": 120.0
+            }
+          ],
+          "id": "library",
+          "name": "University",
+          "show": [
+            "place_library"
+          ]
+        }
+      ],
+      "name": "The Decades"
+    },
+    {
+      "hotspots": [
+        {
+          "acts": [
+            {
+              "dur": "400 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "forest_grown"
+              ],
+              "id": "forest",
+              "name": "Raise a forest from a seed",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 400.0
+            }
+          ],
+          "id": "oak",
+          "name": "Old oak",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "200 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "charted_stars"
+              ],
+              "id": "chart",
+              "name": "Chart the stars",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 200.0
+            }
+          ],
+          "id": "telescope",
+          "name": "Telescope",
+          "show": [
+            "found_telescope"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "600 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "city_grown"
+              ],
+              "id": "village",
+              "name": "Watch the village become a city",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_village"
+              ],
+              "search": false,
+              "years": 600.0
+            }
+          ],
+          "id": "village",
+          "name": "The village",
+          "show": [
+            "found_village"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "300 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "family_done"
+              ],
+              "id": "family",
+              "name": "Follow one family through time",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 300.0
+            }
+          ],
+          "id": "ledger",
+          "name": "Stone table",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "",
+              "exhausts": [],
+              "exit": true,
+              "give": [],
+              "id": "leave4",
+              "name": "Stay. Keep watching.",
+              "needs": [],
+              "once": true,
+              "req": [
+                "family_done",
+                "charted_stars"
+              ],
+              "search": false,
+              "years": 0.0
+            }
+          ],
+          "id": "edge",
+          "name": "The high hill",
+          "show": []
+        }
+      ],
+      "name": "The Centuries"
+    },
+    {
+      "hotspots": [
+        {
+          "acts": [
+            {
+              "dur": "2,000 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "empire_rose"
+              ],
+              "id": "rise",
+              "name": "Watch an empire rise",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 2000.0
+            },
+            {
+              "dur": "1,500 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "empire_fell"
+              ],
+              "id": "fall",
+              "name": "Watch it crumble",
+              "needs": [],
+              "once": true,
+              "req": [
+                "empire_rose"
+              ],
+              "search": false,
+              "years": 1500.0
+            }
+          ],
+          "id": "parapet",
+          "name": "Stone parapet",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "300 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "wrote_history"
+              ],
+              "id": "history",
+              "name": "Write the empire's history",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 300.0
+            },
+            {
+              "dur": "50 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "know_cycles"
+              ],
+              "id": "compare",
+              "name": "Compare it with their histories",
+              "needs": [],
+              "once": true,
+              "req": [
+                "wrote_history",
+                "empire_fell"
+              ],
+              "search": false,
+              "years": 50.0
+            },
+            {
+              "dur": "1,200 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "second_empire"
+              ],
+              "id": "second",
+              "name": "Watch a second empire rise",
+              "needs": [],
+              "once": true,
+              "req": [
+                "know_cycles"
+              ],
+              "search": false,
+              "years": 1200.0
+            }
+          ],
+          "id": "scribe",
+          "name": "Scribe's desk",
+          "show": [
+            "empire_rose"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "3 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_ice_map"
+              ],
+              "id": "search_ruins",
+              "name": "Search the ruined archive",
+              "needs": [],
+              "once": true,
+              "req": [
+                "empire_fell"
+              ],
+              "search": true,
+              "years": 3.0
+            }
+          ],
+          "id": "ruins",
+          "name": "The ruins",
+          "show": [
+            "empire_rose"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "50,000 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "glacier_done"
+              ],
+              "id": "glacier",
+              "name": "Watch a glacier carve a valley",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_ice_map"
+              ],
+              "search": false,
+              "years": 50000.0
+            }
+          ],
+          "id": "ridge",
+          "name": "North ridge",
+          "show": [
+            "empire_fell"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "",
+              "exhausts": [],
+              "exit": true,
+              "give": [],
+              "id": "leave5",
+              "name": "Let the ages pass",
+              "needs": [],
+              "once": true,
+              "req": [
+                "glacier_done"
+              ],
+              "search": false,
+              "years": 0.0
+            }
+          ],
+          "id": "stair",
+          "name": "The stair down",
+          "show": []
+        }
+      ],
+      "name": "The Millennia"
+    },
+    {
+      "hotspots": [
+        {
+          "acts": [
+            {
+              "dur": "10,000 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_fossil"
+              ],
+              "id": "search_fossil",
+              "name": "Search the strata",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 10000.0
+            },
+            {
+              "dur": "5 million years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "evolved"
+              ],
+              "id": "evolve",
+              "name": "Watch a species evolve",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_fossil"
+              ],
+              "search": false,
+              "years": 5000000.0
+            }
+          ],
+          "id": "fossils",
+          "name": "Fossil bed",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "100,000 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "seen_layers"
+              ],
+              "id": "layers",
+              "name": "Study the layered rock",
+              "needs": [],
+              "once": true,
+              "req": [
+                "evolved"
+              ],
+              "search": true,
+              "years": 100000.0
+            },
+            {
+              "dur": "100 million years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "drifted"
+              ],
+              "id": "drift",
+              "name": "Watch the continents drift",
+              "needs": [],
+              "once": true,
+              "req": [
+                "seen_layers"
+              ],
+              "search": false,
+              "years": 100000000.0
+            }
+          ],
+          "id": "cliff",
+          "name": "Cliff face",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "2 million years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "island_born"
+              ],
+              "id": "island",
+              "name": "Watch a volcano build an island",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 2000000.0
+            },
+            {
+              "dur": "20,000 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_crystal"
+              ],
+              "id": "search_tubes",
+              "name": "Search the lava tubes",
+              "needs": [],
+              "once": true,
+              "req": [
+                "island_born"
+              ],
+              "search": true,
+              "years": 20000.0
+            }
+          ],
+          "id": "volcano",
+          "name": "Volcano",
+          "show": [
+            "evolved"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "10 million years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "iced"
+              ],
+              "id": "ice",
+              "name": "Watch the ice ages come and go",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 10000000.0
+            }
+          ],
+          "id": "ridge2",
+          "name": "Frozen ridge",
+          "show": [
+            "drifted"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "",
+              "exhausts": [],
+              "exit": true,
+              "give": [],
+              "id": "leave6",
+              "name": "Look up",
+              "needs": [],
+              "once": true,
+              "req": [
+                "iced"
+              ],
+              "search": false,
+              "years": 0.0
+            }
+          ],
+          "id": "sky",
+          "name": "The open sky",
+          "show": []
+        }
+      ],
+      "name": "Deep Time"
+    },
+    {
+      "hotspots": [
+        {
+          "acts": [
+            {
+              "dur": "1 million years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_nursery"
+              ],
+              "id": "scan_neb",
+              "name": "Search the dust for a nursery",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 1000000.0
+            },
+            {
+              "dur": "100 million years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "planet_formed"
+              ],
+              "id": "planet",
+              "name": "Watch a planet form",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_nursery"
+              ],
+              "search": false,
+              "years": 100000000.0
+            }
+          ],
+          "id": "nebula",
+          "name": "Dark nebula",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "a moment",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "crystal_sung"
+              ],
+              "id": "strike",
+              "name": "Strike the crystal",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 0.0000000316880878140289
+            }
+          ],
+          "id": "crystal",
+          "name": "The crystal",
+          "show": [
+            "found_crystal"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "10 million years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "comet_seen"
+              ],
+              "id": "comet",
+              "name": "Watch a comet circle the sun",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 10000000.0
+            }
+          ],
+          "id": "comet",
+          "name": "Comet",
+          "show": [
+            "found_nursery"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "5 billion years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "sun_lived"
+              ],
+              "id": "star",
+              "name": "Watch a sun live its life",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 5000000000.0
+            }
+          ],
+          "id": "star",
+          "name": "Young star",
+          "show": [
+            "planet_formed"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "1 billion years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "swallowed"
+              ],
+              "id": "swallow",
+              "name": "Watch your world swallowed by its sun",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 1000000000.0
+            }
+          ],
+          "id": "giant",
+          "name": "Red giant",
+          "show": [
+            "sun_lived"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "",
+              "exhausts": [],
+              "exit": true,
+              "give": [],
+              "id": "leave7",
+              "name": "Go on",
+              "needs": [],
+              "once": true,
+              "req": [
+                "swallowed"
+              ],
+              "search": false,
+              "years": 0.0
+            }
+          ],
+          "id": "beyond",
+          "name": "Beyond",
+          "show": []
+        }
+      ],
+      "name": "Stars"
+    },
+    {
+      "hotspots": [
+        {
+          "acts": [
+            {
+              "dur": "10^20 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "heard_nothing"
+              ],
+              "id": "listen",
+              "name": "Listen for a signal",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": true,
+              "years": 100000000000000000000.0
+            },
+            {
+              "dur": "a moment",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "crystal_last"
+              ],
+              "id": "last_note",
+              "name": "Strike the crystal one last time",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_crystal",
+                "heard_nothing"
+              ],
+              "search": false,
+              "years": 0.0000000316880878140289
+            }
+          ],
+          "id": "signal",
+          "name": "The silence",
+          "show": [
+            "stars_out"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "100 trillion years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "stars_out"
+              ],
+              "id": "stars",
+              "name": "Watch the last stars burn out",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 100000000000000.0
+            }
+          ],
+          "id": "sky7",
+          "name": "Fading stars",
+          "show": []
+        },
+        {
+          "acts": [
+            {
+              "dur": "10^40 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "found_holes"
+              ],
+              "id": "search_void",
+              "name": "Search the dark for anything still burning",
+              "needs": [],
+              "once": true,
+              "req": [
+                "stars_out"
+              ],
+              "search": true,
+              "years": 10000000000000000000000000000000000000000.0
+            },
+            {
+              "dur": "10^100 years",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "holes_gone"
+              ],
+              "id": "holes",
+              "name": "Watch the black holes evaporate",
+              "needs": [],
+              "once": true,
+              "req": [
+                "found_holes"
+              ],
+              "search": false,
+              "years": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0
+            }
+          ],
+          "id": "void",
+          "name": "The dark",
+          "show": [
+            "stars_out"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "...",
+              "exhausts": [],
+              "exit": false,
+              "give": [
+                "light_gone"
+              ],
+              "id": "photon",
+              "name": "Watch the last light fade",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 10000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0
+            }
+          ],
+          "id": "photon",
+          "name": "The last light",
+          "show": [
+            "holes_gone"
+          ]
+        },
+        {
+          "acts": [
+            {
+              "dur": "",
+              "exhausts": [],
+              "exit": true,
+              "give": [],
+              "id": "leave8",
+              "name": "Sit. Wait.",
+              "needs": [],
+              "once": true,
+              "req": [
+                "light_gone"
+              ],
+              "search": false,
+              "years": 0.0
+            }
+          ],
+          "id": "end7",
+          "name": "Nothing",
+          "show": []
+        }
+      ],
+      "name": "The Long Dark"
+    },
+    {
+      "hotspots": [
+        {
+          "acts": [
+            {
+              "dur": "forever",
+              "exhausts": [],
+              "exit": false,
+              "give": [],
+              "id": "letgo",
+              "name": "Let go",
+              "needs": [],
+              "once": true,
+              "req": [],
+              "search": false,
+              "years": 99999999999999997000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0
+            }
+          ],
+          "id": "self",
+          "name": "Yourself",
+          "show": []
+        }
+      ],
+      "name": "Nothing"
+    }
+  ],
+  "notes": {
+    "apples_grown": "The apples are ripe.",
+    "book_written": "You wrote a whole book. Nobody will read it.",
+    "built_house": "A house of your own making, in the village.",
+    "can_cook": "You cooked a feast. You set two places, out of habit.",
+    "charted_stars": "You've mapped the sky. It will need redrawing.",
+    "city_grown": "The hamlet is a city. They never noticed you.",
+    "comet_seen": "A comet on a ten-million-year orbit. Company, of a sort.",
+    "composed": "You composed a thousand symphonies. The hall was empty.",
+    "crystal_last": "The last note, travelling forever.",
+    "crystal_sung": "You struck the crystal. The dust seemed to listen.",
+    "door_open": "The front door is unlocked.",
+    "drifted": "The map you knew is wrong.",
+    "empire_fell": "The empire, fallen. Goats in the forum.",
+    "empire_rose": "An empire, risen out of the plain.",
+    "evolved": "Something looked up and wondered.",
+    "explored_village": "You walked every street of the village.",
+    "family_done": "The family died out. The city did not notice.",
+    "forest_grown": "A forest, older than any road you walked.",
+    "found_almanac": "A stained gardener's almanac, wedged in the kitchen shelf.",
+    "found_chess": "A chess set, in the cabinet.",
+    "found_chess_note": "Taped under the chessboard: 'Your move.' In your handwriting.",
+    "found_crystal": "A crystal that rings when you tap it.",
+    "found_fossil": "Bones in the stone. Something lived here.",
+    "found_holes": "Dark things that still glow, very faintly.",
+    "found_ice_map": "In the ruins: a drawing of the northern ice.",
+    "found_letters": "Letters in an unknown language. The attic.",
+    "found_library": "A university. Its halls go on and on.",
+    "found_lumber": "Beams and tools. Enough to build with.",
+    "found_notebook": "A blank leather notebook, in the desk.",
+    "found_nursery": "A dark nebula. Something is being born in it.",
+    "found_old_message": "An unsent message on the old computer, to someone with no name.",
+    "found_paints": "A roadside painting workshop. Paints, still wet somehow.",
+    "found_photo": "A folded photograph behind the clock. A smile you can't place.",
+    "found_scores": "A conservatory near the end of the road, full of unplayed scores.",
+    "found_seeds": "A tin of seeds, in the shed.",
+    "found_shelf_note": "A pressed flower bookmark, with a date older than you can place.",
+    "found_sleeve_note": "A note in a record sleeve: 'for when the quiet gets too loud'.",
+    "found_telescope": "A brass telescope, wrapped in oilcloth, in the attic.",
+    "found_tools": "Garden tools. Rusted, but good.",
+    "found_tv_note": "A TV guide behind the set, every show circled. The circles are yours.",
+    "found_village": "Smoke over a cluster of roofs beside the road: a village.",
+    "found_window_note": "A pressed leaf behind the curtain. Autumn, once.",
+    "garden_cleared": "The weeds are gone. The earth is ready.",
+    "garden_grown": "Tomatoes. Beans. Nobody to share them with.",
+    "glacier_done": "A valley, carved by patient ice.",
+    "grafted": "A new apple. Yours.",
+    "heard_music": "Music. You'd forgotten what a melody was for.",
+    "heard_nothing": "You listened for a signal. There was none.",
+    "holes_gone": "Even black holes run out of time.",
+    "iced": "White, green, white, green.",
+    "island_born": "A volcano built an island, then the sea took it back.",
+    "know_cycles": "Rise, fall, forget. Round and round.",
+    "know_garden": "The almanac: everything wants light, water, patience.",
+    "light_gone": "No light. No heat. No motion.",
+    "painted": "A thousand canvases. Not one with a face.",
+    "piano_learned": "Your hands know the piano now.",
+    "piano_uncovered": "You uncovered the piano.",
+    "place_conservatory": "A hall with a green roof beside the road.",
+    "place_library": "A university at the end of the road.",
+    "place_workshop": "A roadside painting workshop.",
+    "planet_formed": "A world, from dust.",
+    "second_empire": "A second empire. The same mistakes under new banners.",
+    "seen_layers": "Layers in the rock. Time, written sideways.",
+    "seen_world": "The road goes everywhere, and ends nowhere.",
+    "seen_yard": "Outside the window, an overgrown yard. Bare earth.",
+    "stars_out": "The last stars have gone out.",
+    "studied": "You know how everything works. It changes nothing.",
+    "sun_lived": "The sun grew old. Swollen. Red.",
+    "swallowed": "Your world is gone, inside the light.",
+    "wrote_history": "A history of the empire, in your own hand."
+  }
+}

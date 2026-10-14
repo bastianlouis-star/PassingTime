@@ -1,0 +1,629 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1508" height="3442" viewBox="0 0 1508 3442" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7a86b8"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ff9a4a"/></marker></defs>
+<rect width="1508" height="3442" fill="#0b0d1a"/>
+<text x="40" y="38" fill="#e8e6dc" font-size="26" font-weight="600">Passing Time - progression graph</text>
+<text x="40" y="60" fill="#8a93b0" font-size="13">88 actions · 70 discoveries · 9 eras. An arrow A → B means B needs something A gives you. Dashed: a place that only appears after. Orange tags: needs something found in an earlier era (the number is that era).</text>
+<rect x="868" y="22" width="14" height="14" rx="3" fill="#3a2e12" stroke="#ffcd75"/>
+<text x="888" y="34" fill="#8a93b0" font-size="12">search / find something</text>
+<rect x="1028" y="22" width="14" height="14" rx="3" fill="#241c3c" stroke="#c8a0ff"/>
+<text x="1048" y="34" fill="#8a93b0" font-size="12">one-time discovery</text>
+<rect x="1188" y="22" width="14" height="14" rx="3" fill="#102a3a" stroke="#73eff7"/>
+<text x="1208" y="34" fill="#8a93b0" font-size="12">repeatable time-lapse</text>
+<rect x="1348" y="22" width="14" height="14" rx="3" fill="#12321f" stroke="#7aef98"/>
+<text x="1368" y="34" fill="#8a93b0" font-size="12">era exit</text>
+<rect x="14" y="90" width="1480" height="972" rx="10" fill="#12162b"/>
+<text x="40" y="114" fill="#ffcd75" font-size="15" font-weight="600">1 · THE ROOM</text>
+<rect x="14" y="1088" width="1480" height="482" rx="10" fill="#0f1325"/>
+<text x="40" y="1112" fill="#ffcd75" font-size="15" font-weight="600">2 · THE HOUSE</text>
+<rect x="14" y="1596" width="1480" height="342" rx="10" fill="#12162b"/>
+<text x="40" y="1620" fill="#ffcd75" font-size="15" font-weight="600">3 · THE DECADES</text>
+<rect x="14" y="1964" width="1480" height="342" rx="10" fill="#0f1325"/>
+<text x="40" y="1988" fill="#ffcd75" font-size="15" font-weight="600">4 · THE CENTURIES</text>
+<rect x="14" y="2332" width="1480" height="202" rx="10" fill="#12162b"/>
+<text x="40" y="2356" fill="#ffcd75" font-size="15" font-weight="600">5 · THE MILLENNIA</text>
+<rect x="14" y="2560" width="1480" height="202" rx="10" fill="#0f1325"/>
+<text x="40" y="2584" fill="#ffcd75" font-size="15" font-weight="600">6 · DEEP TIME</text>
+<rect x="14" y="2788" width="1480" height="202" rx="10" fill="#12162b"/>
+<text x="40" y="2812" fill="#ffcd75" font-size="15" font-weight="600">7 · STARS</text>
+<rect x="14" y="3016" width="1480" height="202" rx="10" fill="#0f1325"/>
+<text x="40" y="3040" fill="#ffcd75" font-size="15" font-weight="600">8 · THE LONG DARK</text>
+<rect x="14" y="3244" width="1480" height="132" rx="10" fill="#12162b"/>
+<text x="40" y="3268" fill="#ffcd75" font-size="15" font-weight="600">9 · NOTHING</text>
+<path d="M232.0,683.0 C262.0,683.0 248.0,858.0 278.0,858.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>found_chess: A chess set, in the cabinet.</title></path>
+<path d="M232.0,1226.0 C262.0,1226.0 248.0,1156.0 278.0,1156.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_notebook: A blank leather notebook, in the desk.</title></path>
+<path d="M232.0,1296.0 C262.0,1296.0 248.0,1226.0 278.0,1226.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>piano_uncovered: You uncovered the piano.</title></path>
+<path d="M232.0,1366.0 C262.0,1366.0 248.0,1296.0 278.0,1296.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_almanac: A stained gardener&#x27;s almanac, wedged in the kitchen shelf.</title></path>
+<path d="M232.0,1156.0 C262.0,1156.0 248.0,1366.0 278.0,1366.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>found_telescope: A brass telescope, wrapped in oilcloth, in the attic.</title></path>
+<path d="M470.0,1436.0 C500.0,1436.0 486.0,1366.0 516.0,1366.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_tools: Garden tools. Rusted, but good.</title></path>
+<path d="M232.0,1436.0 C374.0,1436.0 374.0,1366.0 516.0,1366.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>apples_grown: The apples are ripe.</title></path>
+<path d="M470.0,1436.0 C500.0,1436.0 486.0,1436.0 516.0,1436.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_tools: Garden tools. Rusted, but good.</title></path>
+<path d="M470.0,1296.0 C500.0,1296.0 486.0,1436.0 516.0,1436.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>know_garden: The almanac: everything wants light, water, patience.</title></path>
+<path d="M708.0,1436.0 C738.0,1436.0 724.0,1401.0 754.0,1401.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>garden_cleared: The weeds are gone. The earth is ready.</title></path>
+<path d="M232.0,1506.0 C493.0,1506.0 493.0,1401.0 754.0,1401.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_seeds: A tin of seeds, in the shed.</title></path>
+<path d="M232.0,1506.0 C262.0,1506.0 248.0,1436.0 278.0,1436.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_seeds: A tin of seeds, in the shed.</title></path>
+<path d="M232.0,1156.0 C262.0,1156.0 248.0,1506.0 278.0,1506.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_letters: Letters in an unknown language. The attic.</title></path>
+<path d="M232.0,1156.0 C262.0,1156.0 248.0,1506.0 278.0,1506.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_telescope: A brass telescope, wrapped in oilcloth, in the attic.</title></path>
+<path d="M232.0,1769.0 C262.0,1769.0 248.0,1664.0 278.0,1664.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>place_workshop: A roadside painting workshop.</title></path>
+<path d="M470.0,1664.0 C500.0,1664.0 486.0,1664.0 516.0,1664.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>found_paints: A roadside painting workshop. Paints, still wet somehow.</title></path>
+<path d="M232.0,1769.0 C262.0,1769.0 248.0,1734.0 278.0,1734.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_village: Smoke over a cluster of roofs beside the road: a village.</title></path>
+<path d="M232.0,1769.0 C374.0,1769.0 374.0,1734.0 516.0,1734.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_village: Smoke over a cluster of roofs beside the road: a village.</title></path>
+<path d="M470.0,1734.0 C500.0,1734.0 486.0,1734.0 516.0,1734.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>explored_village: You walked every street of the village.</title></path>
+<path d="M708.0,1734.0 C738.0,1734.0 724.0,1769.0 754.0,1769.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>built_house: A house of your own making, in the village.</title></path>
+<path d="M232.0,1769.0 C262.0,1769.0 248.0,1804.0 278.0,1804.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>place_conservatory: A hall with a green roof beside the road.</title></path>
+<path d="M470.0,1804.0 C500.0,1804.0 486.0,1804.0 516.0,1804.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_scores: A conservatory near the end of the road, full of unplayed scores.</title></path>
+<path d="M232.0,1769.0 C262.0,1769.0 248.0,1874.0 278.0,1874.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>place_library: A university at the end of the road.</title></path>
+<path d="M470.0,1874.0 C500.0,1874.0 486.0,1874.0 516.0,1874.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_library: A university. Its halls go on and on.</title></path>
+<path d="M232.0,2242.0 C262.0,2242.0 248.0,2137.0 278.0,2137.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>family_done: The family died out. The city did not notice.</title></path>
+<path d="M232.0,2102.0 C262.0,2102.0 248.0,2137.0 278.0,2137.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>charted_stars: You&#x27;ve mapped the sky. It will need redrawing.</title></path>
+<path d="M232.0,2435.0 C262.0,2435.0 248.0,2400.0 278.0,2400.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>empire_rose: An empire, risen out of the plain.</title></path>
+<path d="M232.0,2435.0 C262.0,2435.0 248.0,2470.0 278.0,2470.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>empire_rose: An empire, risen out of the plain.</title></path>
+<path d="M470.0,2470.0 C500.0,2470.0 486.0,2400.0 516.0,2400.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>wrote_history: A history of the empire, in your own hand.</title></path>
+<path d="M470.0,2400.0 C500.0,2400.0 486.0,2400.0 516.0,2400.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>empire_fell: The empire, fallen. Goats in the forum.</title></path>
+<path d="M708.0,2400.0 C738.0,2400.0 724.0,2400.0 754.0,2400.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>know_cycles: Rise, fall, forget. Round and round.</title></path>
+<path d="M470.0,2400.0 C500.0,2400.0 486.0,2470.0 516.0,2470.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>empire_fell: The empire, fallen. Goats in the forum.</title></path>
+<path d="M232.0,2435.0 C374.0,2435.0 374.0,2470.0 516.0,2470.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>empire_rose: An empire, risen out of the plain.</title></path>
+<path d="M708.0,2470.0 C738.0,2470.0 724.0,2470.0 754.0,2470.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_ice_map: In the ruins: a drawing of the northern ice.</title></path>
+<path d="M470.0,2400.0 C612.0,2400.0 612.0,2470.0 754.0,2470.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>empire_fell: The empire, fallen. Goats in the forum.</title></path>
+<path d="M946.0,2470.0 C976.0,2470.0 962.0,2435.0 992.0,2435.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>glacier_done: A valley, carved by patient ice.</title></path>
+<path d="M232.0,2663.0 C262.0,2663.0 248.0,2663.0 278.0,2663.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_fossil: Bones in the stone. Something lived here.</title></path>
+<path d="M470.0,2663.0 C500.0,2663.0 486.0,2628.0 516.0,2628.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>evolved: Something looked up and wondered.</title></path>
+<path d="M708.0,2628.0 C738.0,2628.0 724.0,2628.0 754.0,2628.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>seen_layers: Layers in the rock. Time, written sideways.</title></path>
+<path d="M470.0,2663.0 C500.0,2663.0 486.0,2698.0 516.0,2698.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>evolved: Something looked up and wondered.</title></path>
+<path d="M708.0,2698.0 C738.0,2698.0 724.0,2698.0 754.0,2698.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>island_born: A volcano built an island, then the sea took it back.</title></path>
+<path d="M946.0,2628.0 C976.0,2628.0 962.0,2663.0 992.0,2663.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>drifted: The map you knew is wrong.</title></path>
+<path d="M1184.0,2663.0 C1214.0,2663.0 1200.0,2663.0 1230.0,2663.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>iced: White, green, white, green.</title></path>
+<path d="M232.0,2856.0 C262.0,2856.0 248.0,2856.0 278.0,2856.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_nursery: A dark nebula. Something is being born in it.</title></path>
+<path d="M232.0,2856.0 C262.0,2856.0 248.0,2926.0 278.0,2926.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>found_nursery: A dark nebula. Something is being born in it.</title></path>
+<path d="M470.0,2856.0 C500.0,2856.0 486.0,2891.0 516.0,2891.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>planet_formed: A world, from dust.</title></path>
+<path d="M708.0,2891.0 C738.0,2891.0 724.0,2891.0 754.0,2891.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>sun_lived: The sun grew old. Swollen. Red.</title></path>
+<path d="M946.0,2891.0 C976.0,2891.0 962.0,2891.0 992.0,2891.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>swallowed: Your world is gone, inside the light.</title></path>
+<path d="M232.0,3119.0 C262.0,3119.0 248.0,3084.0 278.0,3084.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>stars_out: The last stars have gone out.</title></path>
+<path d="M470.0,3084.0 C500.0,3084.0 486.0,3084.0 516.0,3084.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>heard_nothing: You listened for a signal. There was none.</title></path>
+<path d="M232.0,3119.0 C262.0,3119.0 248.0,3154.0 278.0,3154.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>stars_out: The last stars have gone out.</title></path>
+<path d="M470.0,3154.0 C500.0,3154.0 486.0,3154.0 516.0,3154.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>found_holes: Dark things that still glow, very faintly.</title></path>
+<path d="M708.0,3154.0 C738.0,3154.0 724.0,3119.0 754.0,3119.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="4 4" marker-end="url(#ar)"><title>holes_gone: Even black holes run out of time.</title></path>
+<path d="M946.0,3119.0 C976.0,3119.0 962.0,3119.0 992.0,3119.0" fill="none" stroke="#7a86b8" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#ar)"><title>light_gone: No light. No heat. No motion.</title></path>
+<path d="M232.0,333.0 C262.0,333.0 248.0,158.0 278.0,158.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x2: </title></path>
+<path d="M232.0,333.0 C262.0,333.0 248.0,228.0 278.0,228.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x3: </title></path>
+<path d="M232.0,403.0 C262.0,403.0 248.0,298.0 278.0,298.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x2: </title></path>
+<path d="M232.0,403.0 C262.0,403.0 248.0,368.0 278.0,368.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x3: </title></path>
+<path d="M232.0,473.0 C262.0,473.0 248.0,438.0 278.0,438.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x2: </title></path>
+<path d="M232.0,473.0 C262.0,473.0 248.0,508.0 278.0,508.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x3: </title></path>
+<path d="M232.0,543.0 C262.0,543.0 248.0,578.0 278.0,578.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x2: </title></path>
+<path d="M232.0,543.0 C262.0,543.0 248.0,648.0 278.0,648.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x3: </title></path>
+<path d="M232.0,613.0 C262.0,613.0 248.0,718.0 278.0,718.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x2: </title></path>
+<path d="M232.0,613.0 C262.0,613.0 248.0,788.0 278.0,788.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x3: </title></path>
+<path d="M470.0,858.0 C500.0,858.0 486.0,543.0 516.0,543.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x2: </title></path>
+<path d="M470.0,858.0 C500.0,858.0 486.0,613.0 516.0,613.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x3: </title></path>
+<path d="M232.0,753.0 C262.0,753.0 248.0,928.0 278.0,928.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x2: </title></path>
+<path d="M232.0,753.0 C262.0,753.0 248.0,998.0 278.0,998.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x3: </title></path>
+<path d="M470.0,1156.0 C500.0,1156.0 486.0,1226.0 516.0,1226.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x1: </title></path>
+<path d="M708.0,1226.0 C738.0,1226.0 724.0,1261.0 754.0,1261.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x1: </title></path>
+<path d="M470.0,1226.0 C500.0,1226.0 486.0,1296.0 516.0,1296.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x1: </title></path>
+<path d="M708.0,1296.0 C738.0,1296.0 724.0,1331.0 754.0,1331.0" fill="none" stroke="#73eff7" stroke-width="1.4" stroke-opacity="0.8" stroke-dasharray="2 3" marker-end="url(#ar)"><title>x1: </title></path>
+<g><title>Bookshelf - Read a novel</title>
+<rect x="40.0" y="305.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="48.0" y="322.0" fill="#e8e6dc" font-size="12" font-weight="600">Read a novel</text>
+<text x="48.0" y="355.0" fill="#8a93b0" font-size="10.5">Bookshelf · 10 h</text>
+</g>
+<g><title>Bookshelf - Search behind the books · gives: found_shelf_note</title>
+<rect x="278.0" y="130.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="147.0" fill="#e8e6dc" font-size="12" font-weight="600">Search behind the books</text>
+<text x="286.0" y="180.0" fill="#8a93b0" font-size="10.5">Bookshelf · 15 min</text>
+<circle cx="462.0" cy="177.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Bookshelf - Read every book on the shelf · gives: read_every_book</title>
+<rect x="278.0" y="200.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="217.0" fill="#e8e6dc" font-size="12" font-weight="600">Read every book on the shelf</text>
+<text x="286.0" y="250.0" fill="#8a93b0" font-size="10.5">Bookshelf · 10 days</text>
+<circle cx="462.0" cy="247.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Gramophone - Play a record · gives: heard_music</title>
+<rect x="40.0" y="375.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="48.0" y="392.0" fill="#e8e6dc" font-size="12" font-weight="600">Play a record</text>
+<text x="48.0" y="425.0" fill="#8a93b0" font-size="10.5">Gramophone · 60 min</text>
+<circle cx="224.0" cy="422.0" r="4" fill="#73eff7"/>
+</g>
+<g><title>Gramophone - Look through the record sleeves · gives: found_sleeve_note</title>
+<rect x="278.0" y="270.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="287.0" fill="#e8e6dc" font-size="12" font-weight="600">Look through the record</text>
+<text x="286.0" y="301.0" fill="#e8e6dc" font-size="12" font-weight="600">sleeves</text>
+<text x="286.0" y="320.0" fill="#8a93b0" font-size="10.5">Gramophone · 15 min</text>
+<circle cx="462.0" cy="317.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Gramophone - Listen to every record in the box · gives: listened_all</title>
+<rect x="278.0" y="340.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="357.0" fill="#e8e6dc" font-size="12" font-weight="600">Listen to every record in the</text>
+<text x="286.0" y="371.0" fill="#e8e6dc" font-size="12" font-weight="600">box</text>
+<text x="286.0" y="390.0" fill="#8a93b0" font-size="10.5">Gramophone · 3 days</text>
+<circle cx="462.0" cy="387.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Computer - Play a video game</title>
+<rect x="40.0" y="445.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="48.0" y="462.0" fill="#e8e6dc" font-size="12" font-weight="600">Play a video game</text>
+<text x="48.0" y="495.0" fill="#8a93b0" font-size="10.5">Computer · 3 h</text>
+</g>
+<g><title>Computer - Search the hard drive · gives: found_old_message</title>
+<rect x="278.0" y="410.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="427.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the hard drive</text>
+<text x="286.0" y="460.0" fill="#8a93b0" font-size="10.5">Computer · 60 min</text>
+<circle cx="462.0" cy="457.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Computer - Beat every game on the drive</title>
+<rect x="278.0" y="480.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="497.0" fill="#e8e6dc" font-size="12" font-weight="600">Beat every game on the drive</text>
+<text x="286.0" y="530.0" fill="#8a93b0" font-size="10.5">Computer · 30 days</text>
+</g>
+<g><title>Television - Watch a movie</title>
+<rect x="40.0" y="515.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="48.0" y="532.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch a movie</text>
+<text x="48.0" y="565.0" fill="#8a93b0" font-size="10.5">Television · 2 h</text>
+</g>
+<g><title>Television - Look behind the television · gives: found_tv_note</title>
+<rect x="278.0" y="550.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="567.0" fill="#e8e6dc" font-size="12" font-weight="600">Look behind the television</text>
+<text x="286.0" y="600.0" fill="#8a93b0" font-size="10.5">Television · 60 min</text>
+<circle cx="462.0" cy="597.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Television - Watch every film in the cabinet</title>
+<rect x="278.0" y="620.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="637.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch every film in the</text>
+<text x="286.0" y="651.0" fill="#e8e6dc" font-size="12" font-weight="600">cabinet</text>
+<text x="286.0" y="670.0" fill="#8a93b0" font-size="10.5">Television · 15 days</text>
+</g>
+<g><title>Wall clock - Watch the clock</title>
+<rect x="40.0" y="585.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="48.0" y="602.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch the clock</text>
+<text x="48.0" y="635.0" fill="#8a93b0" font-size="10.5">Wall clock · 60 min</text>
+</g>
+<g><title>Wall clock - Open the clock case · gives: found_photo</title>
+<rect x="278.0" y="690.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="707.0" fill="#e8e6dc" font-size="12" font-weight="600">Open the clock case</text>
+<text x="286.0" y="740.0" fill="#8a93b0" font-size="10.5">Wall clock · 60 min</text>
+<circle cx="462.0" cy="737.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Wall clock - Watch the clock until it stops meaning anything</title>
+<rect x="278.0" y="760.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="777.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch the clock until it</text>
+<text x="286.0" y="791.0" fill="#e8e6dc" font-size="12" font-weight="600">stops meaning anything</text>
+<text x="286.0" y="810.0" fill="#8a93b0" font-size="10.5">Wall clock · 24 h</text>
+</g>
+<g><title>Cabinet - Search the cabinet · gives: found_chess</title>
+<rect x="40.0" y="655.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="48.0" y="672.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the cabinet</text>
+<text x="48.0" y="705.0" fill="#8a93b0" font-size="10.5">Cabinet · 15 min</text>
+<circle cx="224.0" cy="702.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Chess table - Play chess against yourself</title>
+<rect x="278.0" y="830.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="286.0" y="847.0" fill="#e8e6dc" font-size="12" font-weight="600">Play chess against yourself</text>
+<text x="286.0" y="880.0" fill="#8a93b0" font-size="10.5">Chess table · 24 h</text>
+</g>
+<g><title>Chess table - Look under the board · gives: found_chess_note</title>
+<rect x="516.0" y="515.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="524.0" y="532.0" fill="#e8e6dc" font-size="12" font-weight="600">Look under the board</text>
+<text x="524.0" y="565.0" fill="#8a93b0" font-size="10.5">Chess table · 60 min</text>
+<circle cx="700.0" cy="562.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Chess table - Play every possible game</title>
+<rect x="516.0" y="585.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="602.0" fill="#e8e6dc" font-size="12" font-weight="600">Play every possible game</text>
+<text x="524.0" y="635.0" fill="#8a93b0" font-size="10.5">Chess table · 5 days</text>
+</g>
+<g><title>Window - Look outside · gives: seen_yard</title>
+<rect x="40.0" y="725.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="48.0" y="742.0" fill="#e8e6dc" font-size="12" font-weight="600">Look outside</text>
+<text x="48.0" y="775.0" fill="#8a93b0" font-size="10.5">Window · 60 min</text>
+<circle cx="224.0" cy="772.0" r="4" fill="#73eff7"/>
+</g>
+<g><title>Window - Search the windowsill · gives: found_window_note</title>
+<rect x="278.0" y="900.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="917.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the windowsill</text>
+<text x="286.0" y="950.0" fill="#8a93b0" font-size="10.5">Window · 15 min</text>
+<circle cx="462.0" cy="947.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Window - Watch the yard until it stops changing</title>
+<rect x="278.0" y="970.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="987.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch the yard until it stops</text>
+<text x="286.0" y="1001.0" fill="#e8e6dc" font-size="12" font-weight="600">changing</text>
+<text x="286.0" y="1020.0" fill="#8a93b0" font-size="10.5">Window · 12 days</text>
+</g>
+<g><title>Front door - Step outside</title>
+<rect x="40.0" y="795.0" width="192" height="56" rx="7" fill="#12321f" stroke="#7aef98" stroke-width="1.5"/>
+<text x="48.0" y="812.0" fill="#e8e6dc" font-size="12" font-weight="600">Step outside</text>
+<text x="48.0" y="845.0" fill="#8a93b0" font-size="10.5">Front door</text>
+</g>
+<g><title>Attic ladder - Search the attic · gives: found_letters, found_telescope</title>
+<rect x="40.0" y="1128.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="48.0" y="1145.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the attic</text>
+<text x="48.0" y="1178.0" fill="#8a93b0" font-size="10.5">Attic ladder · 15 min</text>
+<circle cx="224.0" cy="1175.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Desk - Search the drawers · gives: found_notebook</title>
+<rect x="40.0" y="1198.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="48.0" y="1215.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the drawers</text>
+<text x="48.0" y="1248.0" fill="#8a93b0" font-size="10.5">Desk · 15 min</text>
+<circle cx="224.0" cy="1245.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Desk - Start writing a book</title>
+<rect x="278.0" y="1128.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="1145.0" fill="#e8e6dc" font-size="12" font-weight="600">Start writing a book</text>
+<text x="286.0" y="1178.0" fill="#8a93b0" font-size="10.5">Desk · 91 days</text>
+<text x="280.0" y="1123.0" fill="#ff9a4a" font-size="9.5">← Read every book on the shelf (1)</text>
+</g>
+<g><title>Desk - Continue writing your book</title>
+<rect x="516.0" y="1198.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="1215.0" fill="#e8e6dc" font-size="12" font-weight="600">Continue writing your book</text>
+<text x="524.0" y="1248.0" fill="#8a93b0" font-size="10.5">Desk · 91 days</text>
+</g>
+<g><title>Desk - Finish your book · gives: book_written</title>
+<rect x="754.0" y="1233.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="762.0" y="1250.0" fill="#e8e6dc" font-size="12" font-weight="600">Finish your book</text>
+<text x="762.0" y="1283.0" fill="#8a93b0" font-size="10.5">Desk · 91 days</text>
+<circle cx="938.0" cy="1280.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Piano - Take the sheet off the piano · gives: piano_uncovered</title>
+<rect x="40.0" y="1268.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="48.0" y="1285.0" fill="#e8e6dc" font-size="12" font-weight="600">Take the sheet off the piano</text>
+<text x="48.0" y="1318.0" fill="#8a93b0" font-size="10.5">Piano · 5 min</text>
+<circle cx="224.0" cy="1315.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Piano - Start learning the piano</title>
+<rect x="278.0" y="1198.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="1215.0" fill="#e8e6dc" font-size="12" font-weight="600">Start learning the piano</text>
+<text x="286.0" y="1248.0" fill="#8a93b0" font-size="10.5">Piano · 91 days</text>
+<text x="280.0" y="1193.0" fill="#ff9a4a" font-size="9.5">← Listen to every record in the b…</text>
+</g>
+<g><title>Piano - Continue learning the piano</title>
+<rect x="516.0" y="1268.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="1285.0" fill="#e8e6dc" font-size="12" font-weight="600">Continue learning the piano</text>
+<text x="524.0" y="1318.0" fill="#8a93b0" font-size="10.5">Piano · 91 days</text>
+</g>
+<g><title>Piano - Finish learning the piano · gives: piano_learned</title>
+<rect x="754.0" y="1303.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="762.0" y="1320.0" fill="#e8e6dc" font-size="12" font-weight="600">Finish learning the piano</text>
+<text x="762.0" y="1353.0" fill="#8a93b0" font-size="10.5">Piano · 91 days</text>
+<circle cx="938.0" cy="1350.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Stove - Search the kitchen shelf · gives: found_almanac</title>
+<rect x="40.0" y="1338.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="48.0" y="1355.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the kitchen shelf</text>
+<text x="48.0" y="1388.0" fill="#8a93b0" font-size="10.5">Stove · 15 min</text>
+<circle cx="224.0" cy="1385.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Stove - Read the gardener&#x27;s almanac · gives: know_garden</title>
+<rect x="278.0" y="1268.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="1285.0" fill="#e8e6dc" font-size="12" font-weight="600">Read the gardener&#x27;s almanac</text>
+<text x="286.0" y="1318.0" fill="#8a93b0" font-size="10.5">Stove · 4 days</text>
+<circle cx="462.0" cy="1315.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Telescope - Watch the sky</title>
+<rect x="278.0" y="1338.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="286.0" y="1355.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch the sky</text>
+<text x="286.0" y="1388.0" fill="#8a93b0" font-size="10.5">Telescope · 90 days</text>
+</g>
+<g><title>Apple tree - Wait for the apples to grow</title>
+<rect x="40.0" y="1408.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="48.0" y="1425.0" fill="#e8e6dc" font-size="12" font-weight="600">Wait for the apples to grow</text>
+<text x="48.0" y="1458.0" fill="#8a93b0" font-size="10.5">Apple tree · 30 days</text>
+</g>
+<g><title>Apple tree - Graft a new variety · gives: grafted</title>
+<rect x="516.0" y="1338.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="1355.0" fill="#e8e6dc" font-size="12" font-weight="600">Graft a new variety</text>
+<text x="524.0" y="1388.0" fill="#8a93b0" font-size="10.5">Apple tree · 2 y</text>
+<circle cx="700.0" cy="1385.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Garden plot - Clear the weeds · gives: garden_cleared</title>
+<rect x="516.0" y="1408.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="1425.0" fill="#e8e6dc" font-size="12" font-weight="600">Clear the weeds</text>
+<text x="524.0" y="1458.0" fill="#8a93b0" font-size="10.5">Garden plot · 4 days</text>
+<circle cx="700.0" cy="1455.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Garden plot - Plant and tend the garden · gives: garden_grown</title>
+<rect x="754.0" y="1373.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="762.0" y="1390.0" fill="#e8e6dc" font-size="12" font-weight="600">Plant and tend the garden</text>
+<text x="762.0" y="1423.0" fill="#8a93b0" font-size="10.5">Garden plot · 1 y</text>
+<circle cx="938.0" cy="1420.0" r="4" fill="#73eff7"/>
+</g>
+<g><title>Shed - Search the shed · gives: found_seeds</title>
+<rect x="40.0" y="1478.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="48.0" y="1495.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the shed</text>
+<text x="48.0" y="1528.0" fill="#8a93b0" font-size="10.5">Shed · 15 min</text>
+<circle cx="224.0" cy="1525.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Shed - Rummage for tools · gives: found_tools</title>
+<rect x="278.0" y="1408.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="1425.0" fill="#e8e6dc" font-size="12" font-weight="600">Rummage for tools</text>
+<text x="286.0" y="1458.0" fill="#8a93b0" font-size="10.5">Shed · 15 min</text>
+<circle cx="462.0" cy="1455.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Garden gate - Follow the road</title>
+<rect x="278.0" y="1478.0" width="192" height="56" rx="7" fill="#12321f" stroke="#7aef98" stroke-width="1.5"/>
+<text x="286.0" y="1495.0" fill="#e8e6dc" font-size="12" font-weight="600">Follow the road</text>
+<text x="286.0" y="1528.0" fill="#8a93b0" font-size="10.5">Garden gate</text>
+</g>
+<g><title>Milestone - Walk across the world · gives: seen_world, place_workshop, place_conservatory, place_library, found_village</title>
+<rect x="40.0" y="1741.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="48.0" y="1758.0" fill="#e8e6dc" font-size="12" font-weight="600">Walk across the world</text>
+<text x="48.0" y="1791.0" fill="#8a93b0" font-size="10.5">Milestone · 6.5 y</text>
+<circle cx="224.0" cy="1788.0" r="4" fill="#73eff7"/>
+</g>
+<g><title>Painting workshop - Search the painting workshop · gives: found_paints, found_lumber</title>
+<rect x="278.0" y="1636.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="1653.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the painting workshop</text>
+<text x="286.0" y="1686.0" fill="#8a93b0" font-size="10.5">Painting workshop · 24 h</text>
+<circle cx="462.0" cy="1683.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Easel - Paint a thousand canvases · gives: painted</title>
+<rect x="516.0" y="1636.0" width="192" height="56" rx="7" fill="#102a3a" stroke="#73eff7" stroke-width="1.5"/>
+<text x="524.0" y="1653.0" fill="#e8e6dc" font-size="12" font-weight="600">Paint a thousand canvases</text>
+<text x="524.0" y="1686.0" fill="#8a93b0" font-size="10.5">Easel · 60 y</text>
+<circle cx="700.0" cy="1683.0" r="4" fill="#73eff7"/>
+</g>
+<g><title>The village - Explore the village · gives: explored_village</title>
+<rect x="278.0" y="1706.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="1723.0" fill="#e8e6dc" font-size="12" font-weight="600">Explore the village</text>
+<text x="286.0" y="1756.0" fill="#8a93b0" font-size="10.5">The village · 24 h</text>
+<circle cx="462.0" cy="1753.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>The village - Build a house with your hands · gives: built_house</title>
+<rect x="516.0" y="1706.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="1723.0" fill="#e8e6dc" font-size="12" font-weight="600">Build a house with your hands</text>
+<text x="524.0" y="1756.0" fill="#8a93b0" font-size="10.5">The village · 25 y</text>
+<circle cx="700.0" cy="1753.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>The village - Move into your house</title>
+<rect x="754.0" y="1741.0" width="192" height="56" rx="7" fill="#12321f" stroke="#7aef98" stroke-width="1.5"/>
+<text x="762.0" y="1758.0" fill="#e8e6dc" font-size="12" font-weight="600">Move into your house</text>
+<text x="762.0" y="1791.0" fill="#8a93b0" font-size="10.5">The village</text>
+</g>
+<g><title>Conservatory - Search the conservatory · gives: found_scores</title>
+<rect x="278.0" y="1776.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="1793.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the conservatory</text>
+<text x="286.0" y="1826.0" fill="#8a93b0" font-size="10.5">Conservatory · 24 h</text>
+<circle cx="462.0" cy="1823.0" r="4" fill="#ffcd75"/>
+<text x="280.0" y="1771.0" fill="#ff9a4a" font-size="9.5">← Finish learning the piano (2)</text>
+</g>
+<g><title>Conservatory - Compose a thousand symphonies · gives: composed</title>
+<rect x="516.0" y="1776.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="1793.0" fill="#e8e6dc" font-size="12" font-weight="600">Compose a thousand symphonies</text>
+<text x="524.0" y="1826.0" fill="#8a93b0" font-size="10.5">Conservatory · 60 y</text>
+<circle cx="700.0" cy="1823.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>University - Search the university · gives: found_library</title>
+<rect x="278.0" y="1846.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="1863.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the university</text>
+<text x="286.0" y="1896.0" fill="#8a93b0" font-size="10.5">University · 24 h</text>
+<circle cx="462.0" cy="1893.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>University - Study every science · gives: studied</title>
+<rect x="516.0" y="1846.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="1863.0" fill="#e8e6dc" font-size="12" font-weight="600">Study every science</text>
+<text x="524.0" y="1896.0" fill="#8a93b0" font-size="10.5">University · 120 y</text>
+<circle cx="700.0" cy="1893.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Old oak - Raise a forest from a seed · gives: forest_grown</title>
+<rect x="40.0" y="2004.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="48.0" y="2021.0" fill="#e8e6dc" font-size="12" font-weight="600">Raise a forest from a seed</text>
+<text x="48.0" y="2054.0" fill="#8a93b0" font-size="10.5">Old oak · 400 y</text>
+<circle cx="224.0" cy="2051.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Telescope - Chart the stars · gives: charted_stars</title>
+<rect x="40.0" y="2074.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="48.0" y="2091.0" fill="#e8e6dc" font-size="12" font-weight="600">Chart the stars</text>
+<text x="48.0" y="2124.0" fill="#8a93b0" font-size="10.5">Telescope · 200 y</text>
+<circle cx="224.0" cy="2121.0" r="4" fill="#ffcd75"/>
+<text x="42.0" y="2069.0" fill="#ff9a4a" font-size="9.5">← Search the attic (2)</text>
+</g>
+<g><title>The village - Watch the village become a city · gives: city_grown</title>
+<rect x="40.0" y="2144.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="48.0" y="2161.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch the village become a</text>
+<text x="48.0" y="2175.0" fill="#e8e6dc" font-size="12" font-weight="600">city</text>
+<text x="48.0" y="2194.0" fill="#8a93b0" font-size="10.5">The village · 600 y</text>
+<circle cx="224.0" cy="2191.0" r="4" fill="#c8a0ff"/>
+<text x="42.0" y="2139.0" fill="#ff9a4a" font-size="9.5">← Walk across the world (3)</text>
+</g>
+<g><title>Stone table - Follow one family through time · gives: family_done</title>
+<rect x="40.0" y="2214.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="48.0" y="2231.0" fill="#e8e6dc" font-size="12" font-weight="600">Follow one family through</text>
+<text x="48.0" y="2245.0" fill="#e8e6dc" font-size="12" font-weight="600">time</text>
+<text x="48.0" y="2264.0" fill="#8a93b0" font-size="10.5">Stone table · 300 y</text>
+<circle cx="224.0" cy="2261.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>The high hill - Stay. Keep watching.</title>
+<rect x="278.0" y="2109.0" width="192" height="56" rx="7" fill="#12321f" stroke="#7aef98" stroke-width="1.5"/>
+<text x="286.0" y="2126.0" fill="#e8e6dc" font-size="12" font-weight="600">Stay. Keep watching.</text>
+<text x="286.0" y="2159.0" fill="#8a93b0" font-size="10.5">The high hill</text>
+</g>
+<g><title>Stone parapet - Watch an empire rise · gives: empire_rose</title>
+<rect x="40.0" y="2407.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="48.0" y="2424.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch an empire rise</text>
+<text x="48.0" y="2457.0" fill="#8a93b0" font-size="10.5">Stone parapet · 2,000 y</text>
+<circle cx="224.0" cy="2454.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Stone parapet - Watch it crumble · gives: empire_fell</title>
+<rect x="278.0" y="2372.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="2389.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch it crumble</text>
+<text x="286.0" y="2422.0" fill="#8a93b0" font-size="10.5">Stone parapet · 1,500 y</text>
+<circle cx="462.0" cy="2419.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Scribe&#x27;s desk - Write the empire&#x27;s history · gives: wrote_history</title>
+<rect x="278.0" y="2442.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="2459.0" fill="#e8e6dc" font-size="12" font-weight="600">Write the empire&#x27;s history</text>
+<text x="286.0" y="2492.0" fill="#8a93b0" font-size="10.5">Scribe&#x27;s desk · 300 y</text>
+<circle cx="462.0" cy="2489.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Scribe&#x27;s desk - Compare it with their histories · gives: know_cycles</title>
+<rect x="516.0" y="2372.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="2389.0" fill="#e8e6dc" font-size="12" font-weight="600">Compare it with their</text>
+<text x="524.0" y="2403.0" fill="#e8e6dc" font-size="12" font-weight="600">histories</text>
+<text x="524.0" y="2422.0" fill="#8a93b0" font-size="10.5">Scribe&#x27;s desk · 50 y</text>
+<circle cx="700.0" cy="2419.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Scribe&#x27;s desk - Watch a second empire rise · gives: second_empire</title>
+<rect x="754.0" y="2372.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="762.0" y="2389.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch a second empire rise</text>
+<text x="762.0" y="2422.0" fill="#8a93b0" font-size="10.5">Scribe&#x27;s desk · 1,200 y</text>
+<circle cx="938.0" cy="2419.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>The ruins - Search the ruined archive · gives: found_ice_map</title>
+<rect x="516.0" y="2442.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="524.0" y="2459.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the ruined archive</text>
+<text x="524.0" y="2492.0" fill="#8a93b0" font-size="10.5">The ruins · 3 y</text>
+<circle cx="700.0" cy="2489.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>North ridge - Watch a glacier carve a valley · gives: glacier_done</title>
+<rect x="754.0" y="2442.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="762.0" y="2459.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch a glacier carve a</text>
+<text x="762.0" y="2473.0" fill="#e8e6dc" font-size="12" font-weight="600">valley</text>
+<text x="762.0" y="2492.0" fill="#8a93b0" font-size="10.5">North ridge · 50,000 y</text>
+<circle cx="938.0" cy="2489.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>The stair down - Let the ages pass</title>
+<rect x="992.0" y="2407.0" width="192" height="56" rx="7" fill="#12321f" stroke="#7aef98" stroke-width="1.5"/>
+<text x="1000.0" y="2424.0" fill="#e8e6dc" font-size="12" font-weight="600">Let the ages pass</text>
+<text x="1000.0" y="2457.0" fill="#8a93b0" font-size="10.5">The stair down</text>
+</g>
+<g><title>Fossil bed - Search the strata · gives: found_fossil</title>
+<rect x="40.0" y="2635.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="48.0" y="2652.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the strata</text>
+<text x="48.0" y="2685.0" fill="#8a93b0" font-size="10.5">Fossil bed · 10,000 y</text>
+<circle cx="224.0" cy="2682.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Fossil bed - Watch a species evolve · gives: evolved</title>
+<rect x="278.0" y="2635.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="2652.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch a species evolve</text>
+<text x="286.0" y="2685.0" fill="#8a93b0" font-size="10.5">Fossil bed · 5 My</text>
+<circle cx="462.0" cy="2682.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Cliff face - Study the layered rock · gives: seen_layers</title>
+<rect x="516.0" y="2600.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="524.0" y="2617.0" fill="#e8e6dc" font-size="12" font-weight="600">Study the layered rock</text>
+<text x="524.0" y="2650.0" fill="#8a93b0" font-size="10.5">Cliff face · 100,000 y</text>
+<circle cx="700.0" cy="2647.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Cliff face - Watch the continents drift · gives: drifted</title>
+<rect x="754.0" y="2600.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="762.0" y="2617.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch the continents drift</text>
+<text x="762.0" y="2650.0" fill="#8a93b0" font-size="10.5">Cliff face · 100 My</text>
+<circle cx="938.0" cy="2647.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Volcano - Watch a volcano build an island · gives: island_born</title>
+<rect x="516.0" y="2670.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="2687.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch a volcano build an</text>
+<text x="524.0" y="2701.0" fill="#e8e6dc" font-size="12" font-weight="600">island</text>
+<text x="524.0" y="2720.0" fill="#8a93b0" font-size="10.5">Volcano · 2 My</text>
+<circle cx="700.0" cy="2717.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Volcano - Search the lava tubes · gives: found_crystal</title>
+<rect x="754.0" y="2670.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="762.0" y="2687.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the lava tubes</text>
+<text x="762.0" y="2720.0" fill="#8a93b0" font-size="10.5">Volcano · 20,000 y</text>
+<circle cx="938.0" cy="2717.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Frozen ridge - Watch the ice ages come and go · gives: iced</title>
+<rect x="992.0" y="2635.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="1000.0" y="2652.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch the ice ages come and</text>
+<text x="1000.0" y="2666.0" fill="#e8e6dc" font-size="12" font-weight="600">go</text>
+<text x="1000.0" y="2685.0" fill="#8a93b0" font-size="10.5">Frozen ridge · 10 My</text>
+<circle cx="1176.0" cy="2682.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>The open sky - Look up</title>
+<rect x="1230.0" y="2635.0" width="192" height="56" rx="7" fill="#12321f" stroke="#7aef98" stroke-width="1.5"/>
+<text x="1238.0" y="2652.0" fill="#e8e6dc" font-size="12" font-weight="600">Look up</text>
+<text x="1238.0" y="2685.0" fill="#8a93b0" font-size="10.5">The open sky</text>
+</g>
+<g><title>Dark nebula - Search the dust for a nursery · gives: found_nursery</title>
+<rect x="40.0" y="2828.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="48.0" y="2845.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the dust for a nursery</text>
+<text x="48.0" y="2878.0" fill="#8a93b0" font-size="10.5">Dark nebula · 1 My</text>
+<circle cx="224.0" cy="2875.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>Dark nebula - Watch a planet form · gives: planet_formed</title>
+<rect x="278.0" y="2828.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="2845.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch a planet form</text>
+<text x="286.0" y="2878.0" fill="#8a93b0" font-size="10.5">Dark nebula · 100 My</text>
+<circle cx="462.0" cy="2875.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>The crystal - Strike the crystal · gives: crystal_sung</title>
+<rect x="40.0" y="2898.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="48.0" y="2915.0" fill="#e8e6dc" font-size="12" font-weight="600">Strike the crystal</text>
+<text x="48.0" y="2948.0" fill="#8a93b0" font-size="10.5">The crystal · 0 min</text>
+<circle cx="224.0" cy="2945.0" r="4" fill="#c8a0ff"/>
+<text x="42.0" y="2893.0" fill="#ff9a4a" font-size="9.5">← Search the lava tubes (6)</text>
+</g>
+<g><title>Comet - Watch a comet circle the sun · gives: comet_seen</title>
+<rect x="278.0" y="2898.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="286.0" y="2915.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch a comet circle the sun</text>
+<text x="286.0" y="2948.0" fill="#8a93b0" font-size="10.5">Comet · 10 My</text>
+<circle cx="462.0" cy="2945.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Young star - Watch a sun live its life · gives: sun_lived</title>
+<rect x="516.0" y="2863.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="2880.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch a sun live its life</text>
+<text x="524.0" y="2913.0" fill="#8a93b0" font-size="10.5">Young star · 5 Gy</text>
+<circle cx="700.0" cy="2910.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Red giant - Watch your world swallowed by its sun · gives: swallowed</title>
+<rect x="754.0" y="2863.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="762.0" y="2880.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch your world swallowed by</text>
+<text x="762.0" y="2894.0" fill="#e8e6dc" font-size="12" font-weight="600">its sun</text>
+<text x="762.0" y="2913.0" fill="#8a93b0" font-size="10.5">Red giant · 1 Gy</text>
+<circle cx="938.0" cy="2910.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Beyond - Go on</title>
+<rect x="992.0" y="2863.0" width="192" height="56" rx="7" fill="#12321f" stroke="#7aef98" stroke-width="1.5"/>
+<text x="1000.0" y="2880.0" fill="#e8e6dc" font-size="12" font-weight="600">Go on</text>
+<text x="1000.0" y="2913.0" fill="#8a93b0" font-size="10.5">Beyond</text>
+</g>
+<g><title>The silence - Listen for a signal · gives: heard_nothing</title>
+<rect x="278.0" y="3056.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="3073.0" fill="#e8e6dc" font-size="12" font-weight="600">Listen for a signal</text>
+<text x="286.0" y="3106.0" fill="#8a93b0" font-size="10.5">The silence · 10^20 y</text>
+<circle cx="462.0" cy="3103.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>The silence - Strike the crystal one last time · gives: crystal_last</title>
+<rect x="516.0" y="3056.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="3073.0" fill="#e8e6dc" font-size="12" font-weight="600">Strike the crystal one last</text>
+<text x="524.0" y="3087.0" fill="#e8e6dc" font-size="12" font-weight="600">time</text>
+<text x="524.0" y="3106.0" fill="#8a93b0" font-size="10.5">The silence · 0 min</text>
+<circle cx="700.0" cy="3103.0" r="4" fill="#c8a0ff"/>
+<text x="518.0" y="3051.0" fill="#ff9a4a" font-size="9.5">← Search the lava tubes (6)</text>
+</g>
+<g><title>Fading stars - Watch the last stars burn out · gives: stars_out</title>
+<rect x="40.0" y="3091.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="48.0" y="3108.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch the last stars burn out</text>
+<text x="48.0" y="3141.0" fill="#8a93b0" font-size="10.5">Fading stars · 10^14 y</text>
+<circle cx="224.0" cy="3138.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>The dark - Search the dark for anything still burning · gives: found_holes</title>
+<rect x="278.0" y="3126.0" width="192" height="56" rx="7" fill="#3a2e12" stroke="#ffcd75" stroke-width="1.5"/>
+<text x="286.0" y="3143.0" fill="#e8e6dc" font-size="12" font-weight="600">Search the dark for anything</text>
+<text x="286.0" y="3157.0" fill="#e8e6dc" font-size="12" font-weight="600">still burning</text>
+<text x="286.0" y="3176.0" fill="#8a93b0" font-size="10.5">The dark · 10^40 y</text>
+<circle cx="462.0" cy="3173.0" r="4" fill="#ffcd75"/>
+</g>
+<g><title>The dark - Watch the black holes evaporate · gives: holes_gone</title>
+<rect x="516.0" y="3126.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="524.0" y="3143.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch the black holes</text>
+<text x="524.0" y="3157.0" fill="#e8e6dc" font-size="12" font-weight="600">evaporate</text>
+<text x="524.0" y="3176.0" fill="#8a93b0" font-size="10.5">The dark · 10^100 y</text>
+<circle cx="700.0" cy="3173.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>The last light - Watch the last light fade · gives: light_gone</title>
+<rect x="754.0" y="3091.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="762.0" y="3108.0" fill="#e8e6dc" font-size="12" font-weight="600">Watch the last light fade</text>
+<text x="762.0" y="3141.0" fill="#8a93b0" font-size="10.5">The last light · 10^106 y</text>
+<circle cx="938.0" cy="3138.0" r="4" fill="#c8a0ff"/>
+</g>
+<g><title>Nothing - Sit. Wait.</title>
+<rect x="992.0" y="3091.0" width="192" height="56" rx="7" fill="#12321f" stroke="#7aef98" stroke-width="1.5"/>
+<text x="1000.0" y="3108.0" fill="#e8e6dc" font-size="12" font-weight="600">Sit. Wait.</text>
+<text x="1000.0" y="3141.0" fill="#8a93b0" font-size="10.5">Nothing</text>
+</g>
+<g><title>Yourself - Let go</title>
+<rect x="40.0" y="3284.0" width="192" height="56" rx="7" fill="#241c3c" stroke="#c8a0ff" stroke-width="1.5"/>
+<text x="48.0" y="3301.0" fill="#e8e6dc" font-size="12" font-weight="600">Let go</text>
+<text x="48.0" y="3334.0" fill="#8a93b0" font-size="10.5">Yourself · 10^200 y</text>
+</g>
+</svg>
